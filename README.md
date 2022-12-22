@@ -57,4 +57,9 @@ Habitualmente, los drivers se distribuyen como un fichero JAR.
 * ResultSet: esta interfaz representa un conjunto de resultados obtenidos de una consulta SQL y proporciona métodos para acceder y recorrer los resultados.
 * SQLException: esta clase representa una excepción generada por un error en la conexión o en la ejecución de una consulta SQL.
 
+## Crear base de datos y la tabla con phpMyAdmin
+```
+CREATE TABLE `concesionario`.`coches` ( `id` INT NOT NULL AUTO_INCREMENT , `texto` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+```
+
 **[⬆ Volver arriba](#tabla-de-contenidos)**
